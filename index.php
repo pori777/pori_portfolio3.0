@@ -148,7 +148,7 @@
             </div>
         </section>
         <section id="contact" class="p-section--contact">
-            <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/" alt="contact"></h2>
+            <h2 class="c-section-ttlset--contact"><img src="<?php echo get_template_directory_uri();?>/img/" alt="contact"></h2>
             <?php echo do_shortCode('[contact-form-7 id="44" title="コンタクトフォーム"]')?>
         </section>
     </main>
