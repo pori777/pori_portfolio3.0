@@ -1,0 +1,14 @@
+.p-gnavi {
+    &__list {
+        display: flex;
+        align-items: center;
+    }
+    &__item {
+        width: 100px;
+        height: auto;
+        margin-right: 25px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

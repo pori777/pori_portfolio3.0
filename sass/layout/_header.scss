@@ -1,0 +1,17 @@
+.l-header {
+    display: flex;
+    align-items: center;
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 50px;
+    @include breakpoint( pc ) {
+        width: 90%;
+    }
+    &__title {
+        margin-right: auto;
+        img {
+            width: 200px;
+            height: auto;
+        }
+    }
+}
