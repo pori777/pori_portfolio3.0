@@ -1,8 +1,9 @@
 @use "../foundation/base";
 .l-bg {
     width: 100vw;
-    background-color: base.$bg;
-    background-image: url("../../img/main-logo/main-logo1.png");
+    height: 100vh;
+    background-image: url("./../img/main-logo/main-logo1.png");
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position-x: 50%;
+    background-position: 50%;
 }
