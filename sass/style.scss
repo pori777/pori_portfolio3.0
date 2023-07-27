@@ -1,0 +1,38 @@
+/*
+Theme Name: pori_portfolio3.0
+Theme URI: https://poriporipori.com
+Version: 1.0
+*/
+
+/*
+ * foundation
+ */
+@import "./foundation/base";
+@import "./foundation/reset";
+
+/*
+* layout
+*/
+@import "./layout/header";
+@import "./layout/footer";
+
+/*
+* object
+*/
+
+//component
+@import "./object/component/breadCrumbs";
+@import "./object/component/section-ttlset";
+@import "./object/component/card";
+@import "./object/component/button";
+
+//project
+@import "./object/project/gnavi";
+@import "./object/project/hamburger";
+@import "./object/project/section";
+@import "./object/project/archive";
+@import "./object/project/single";
+@import "./object/project/contact";
+
+//utility
+@import "./object/utility/margin";
