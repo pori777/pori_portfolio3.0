@@ -33,13 +33,13 @@
 <body>
     <div class="l-bg">
         <header role="banner" class="l-header">
-            <h1 class="l-header__title"><img src="<?php echo get_template_directory_uri();?>/img/pori-logo.php" alt="pori"></h1>
+            <h1 class="l-header__title"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-pori.php" alt="pori"></h1>
             <nav class="p-gnavi .js-hamburger">
                 <ul class="p-gnavi__list">
-                    <li class="p-gnavi__item"><a href="https://poriporipori.com/#about"></a></li>
-                    <li class="p-gnavi__item"><a href="https://poriporipori.com/works"></a></li>
-                    <li class="p-gnavi__item"><a href="https://poriporipori.com/blog"></a></li>
-                    <li class="p-gnavi__item"><a href="https://poriporipori.com/#contact"></a></li>
+                    <li class="p-gnavi__item"><a href="https://poriporipori.com/#about"><img src="<?php echo get_template_directory_uri() ;?>/img/title-s/title-s-about.php" alt=""></a></li>
+                    <li class="p-gnavi__item"><a href="https://poriporipori.com/works"><img src="<?php echo get_template_directory_uri() ;?>/img/title-s/title-s-works.php" alt=""></a></li>
+                    <li class="p-gnavi__item"><a href="https://poriporipori.com/blog"><img src="<?php echo get_template_directory_uri() ;?>/img/title-s/title-s-blog.php" alt=""></a></li>
+                    <li class="p-gnavi__item"><a href="https://poriporipori.com/#contact"><img src="<?php echo get_template_directory_uri(); ?>/img/title-s/title-s-contact.php" alt=""></a></li>
                 </ul>
             </nav>
         </header>
