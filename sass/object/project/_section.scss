@@ -1,0 +1,12 @@
+.p-section {
+    width: 90%;
+    margin-top: -50px;
+    padding-top: 50px;
+    @include breakpoint ( sp ) {
+        width: 94%;
+    }
+    &--about {
+        background-color: #fff;
+        margin-top: 80vh;
+    }
+}
