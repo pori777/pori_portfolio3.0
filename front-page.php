@@ -1,5 +1,6 @@
 <?php get_header() ;?>
     <main>
+        <section class="p-section--mainVisual"></section>
         <section id="about" class="p-section--about">
             <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-about.png" alt="about"></h2>
             <div class="p-section--about__content">
