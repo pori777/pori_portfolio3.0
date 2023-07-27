@@ -145,46 +145,6 @@ a {
 /*
 * layout
 */
-:root {
-  font-size: 62.5%;
-}
-
-html {
-  height: 100%;
-  scroll-behavior: smooth;
-}
-
-body {
-  min-width: 350px;
-  width: 100%;
-  background-color: rgb(235, 165, 0);
-  font-family: "Noto Sans JP", Arial;
-  overflow-x: hidden;
-  position: relative;
-}
-
-li {
-  list-style-type: none;
-}
-
-a {
-  cursor: pointer;
-  text-decoration: none;
-}
-
-/*--------------------------------------------
-    サイトカラー
----------------------------------------------*/
-.l-bg {
-  width: 100vw;
-  height: 100vh;
-  background-image: url("./../img/main-logo/main-logo1.png");
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50%;
-}
-
 .l-header {
   display: flex;
   align-items: center;
@@ -219,6 +179,70 @@ a {
   height: auto;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 350px;
+  width: 100%;
+  background-color: rgb(235, 165, 0);
+  font-family: "Noto Sans JP", Arial;
+  overflow-x: hidden;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*--------------------------------------------
+    サイトカラー
+---------------------------------------------*/
+.c-card--postCard {
+  padding-top: 35px;
+  width: calc((100% - 120px) / 3);
+}
+.c-card--postCard__link {
+  display: block;
+  color: #434343;
+}
+.c-card--postCard__link:hover .p-section--post__sentence > p {
+  text-decoration: underline;
+}
+.c-card--postCard__link:hover .p-section--post__imgWrapper > img {
+  transform: scale(1.2);
+}
+.c-card--postCard__imgWrapper {
+  overflow: hidden;
+  border-radius: 15px;
+}
+.c-card--postCard__imgWrapper > img {
+  width: 100%;
+  height: 56.25%;
+  transition: all ease 0.3s;
+}
+.c-card--postCard__sentence {
+  padding: 15px;
+}
+.c-card--postCard__sentence > time {
+  font-size: 16px;
+}
+.c-card--postCard__sentence > p {
+  font-size: 21px;
+  padding-bottom: 7.5px;
+}
+
 .p-gnavi__list {
   display: flex;
   align-items: center;
@@ -232,17 +256,87 @@ a {
   margin-right: 0;
 }
 
-.p-section {
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 350px;
+  width: 100%;
+  background-color: rgb(235, 165, 0);
+  font-family: "Noto Sans JP", Arial;
+  overflow-x: hidden;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*--------------------------------------------
+    サイトカラー
+---------------------------------------------*/
+.p-section, .p-section--blog__content, .p-section--works__content, .p-section--about__content {
   width: 90%;
-  margin-top: -50px;
-  padding-top: 50px;
+  margin: 0 auto;
 }
 @media (max-width: 767px) {
-  .p-section {
+  .p-section, .p-section--blog__content, .p-section--works__content, .p-section--about__content {
     width: 94%;
   }
 }
 .p-section--about {
   background-color: #fff;
   margin-top: 80vh;
+}
+.p-section--about__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 75px;
+}
+.p-section--about__img {
+  margin-right: 35px;
+  margin-left: auto;
+}
+.p-section--about__img > img {
+  width: 250px;
+  height: auto;
+}
+.p-section--about__list {
+  margin-right: auto;
+  margin-left: 35px;
+}
+.p-section--about__item {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.p-section--works__content {
+  padding: 15px 0px 75px;
+}
+.p-section--works__contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.p-section--blog {
+  background-color: #fff;
+}
+.p-section--blog__content {
+  padding: 15px 0px 75px;
+}
+.p-section--blog__contentWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=style.css.map */
