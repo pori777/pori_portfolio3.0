@@ -19,6 +19,7 @@ html {
 body {
   min-width: 350px;
   width: 100%;
+  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   overflow-x: hidden;
   position: relative;
@@ -156,6 +157,7 @@ html {
 body {
   min-width: 350px;
   width: 100%;
+  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   overflow-x: hidden;
   position: relative;
@@ -175,22 +177,24 @@ a {
 ---------------------------------------------*/
 .l-bg {
   width: 100vw;
-  background-color: rgb(235, 165, 0);
-  background-image: url("../../img/main-logo/main-logo1.png");
+  height: 100vh;
+  background-image: url("./../img/main-logo/main-logo1.png");
+  background-size: 500px;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-x: 50%;
+  background-position: 50%;
 }
 
 .l-header {
   display: flex;
   align-items: center;
-  width: 94%;
+  width: 90%;
   margin: 0 auto;
   padding-top: 50px;
 }
-@media (min-width: 767px) {
+@media (max-width: 767px) {
   .l-header {
-    width: 90%;
+    width: 94%;
   }
 }
 .l-header__title {
@@ -204,6 +208,17 @@ a {
 /*
 * object
 */
+.c-section-ttlset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 35px;
+}
+.c-section-ttlset > img {
+  width: 200px;
+  height: auto;
+}
+
 .p-gnavi__list {
   display: flex;
   align-items: center;
@@ -215,4 +230,19 @@ a {
 }
 .p-gnavi__item:last-child {
   margin-right: 0;
+}
+
+.p-section {
+  width: 90%;
+  margin-top: -50px;
+  padding-top: 50px;
+}
+@media (max-width: 767px) {
+  .p-section {
+    width: 94%;
+  }
+}
+.p-section--about {
+  background-color: #fff;
+  margin-top: 80vh;
 }/*# sourceMappingURL=style.css.map */
