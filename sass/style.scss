@@ -13,7 +13,6 @@ Version: 1.0
 /*
 * layout
 */
-@import "./layout/bg";
 @import "./layout/header";
 @import "./layout/footer";
 
@@ -30,6 +29,7 @@ Version: 1.0
 //project
 @import "./object/project/gnavi";
 @import "./object/project/hamburger";
+@import "./object/project/mainVisual";
 @import "./object/project/section";
 @import "./object/project/archive";
 @import "./object/project/single";
