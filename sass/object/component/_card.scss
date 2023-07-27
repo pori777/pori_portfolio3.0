@@ -1,0 +1,40 @@
+@use "../../foundation/base";
+.c-card--postCard {
+    padding-top: 35px;
+    width: calc( ( 100% - 120px ) / 3 );
+    &__link {
+        display: block;
+        color: base.$text;
+        &:hover {
+            .p-section--post__sentence {
+                > p {
+                    text-decoration: underline;
+                }
+            }
+            .p-section--post__imgWrapper {
+                > img {
+                    transform: scale( 1.2 );
+                }
+            }
+        }
+    }
+    &__imgWrapper {
+        overflow: hidden;
+        border-radius: 15px;
+        > img {
+            width: 100%;
+            height: 56.25%;
+            transition: all ease 0.3s;
+        }
+    }
+    &__sentence {
+        padding: 15px;
+        > time {
+            font-size: 16px;
+        }
+        > p {
+            font-size: 21px;
+            padding-bottom: 7.5px;
+        }
+    }
+}
