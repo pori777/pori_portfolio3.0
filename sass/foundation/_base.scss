@@ -40,8 +40,8 @@ $contact_th : #f3f3f3;
 
 //ブレイクポイントの設定
 @mixin breakpoint( $point ) {
-    @if $point == pc {
-        @media ( min-width: 767px ) {
+    @if $point == sp {
+        @media ( max-width: 767px ) {
             @content ;
         }
     }
