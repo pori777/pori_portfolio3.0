@@ -144,6 +144,75 @@ a {
 /*
 * layout
 */
+:root {
+  font-size: 62.5%;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 350px;
+  width: 100%;
+  font-family: "Noto Sans JP", Arial;
+  overflow-x: hidden;
+  position: relative;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*--------------------------------------------
+    サイトカラー
+---------------------------------------------*/
+.l-bg {
+  width: 100vw;
+  background-color: rgb(235, 165, 0);
+  background-image: url("../../img/main-logo/main-logo1.png");
+  background-attachment: fixed;
+  background-position-x: 50%;
+}
+
+.l-header {
+  display: flex;
+  align-items: center;
+  width: 94%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+@media (min-width: 767px) {
+  .l-header {
+    width: 90%;
+  }
+}
+.l-header__title {
+  margin-right: auto;
+}
+.l-header__title img {
+  width: 200px;
+  height: auto;
+}
+
 /*
 * object
-*//*# sourceMappingURL=style.css.map */
+*/
+.p-gnavi__list {
+  display: flex;
+  align-items: center;
+}
+.p-gnavi__item {
+  width: 100px;
+  height: auto;
+  margin-right: 25px;
+}
+.p-gnavi__item:last-child {
+  margin-right: 0;
+}/*# sourceMappingURL=style.css.map */
