@@ -1,11 +1,11 @@
 .l-header {
     display: flex;
     align-items: center;
-    width: 94%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 50px;
-    @include breakpoint( pc ) {
-        width: 90%;
+    @include breakpoint( sp ) {
+        width: 94%;
     }
     &__title {
         margin-right: auto;
