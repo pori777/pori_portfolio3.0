@@ -1,0 +1,53 @@
+//ルートサイズの調整
+:root {
+    font-size: 62.5%;
+}
+
+//サイトの調整
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    min-width: 350px;
+    width: 100%;
+    font-family: 'Noto Sans JP', Arial;
+    overflow-x: hidden;
+    position: relative;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/*--------------------------------------------
+    サイトカラー
+---------------------------------------------*/
+$bg : rgb(235, 165, 0);//背景色
+$text : #434343;//pタグの色
+
+$pageTop_hover : #daa577;
+$contact_th : #f3f3f3;
+
+
+//ブレイクポイントの設定
+@mixin breakpoint( $point ) {
+    @if $point == pc {
+        @media ( min-width: 767px ) {
+            @content ;
+        }
+    }
+}
+
+//追加フォント
+@mixin oswald( $weight: "400" ) {
+    font-family: 'Oswald', sans-serif;
+    font-weight: $weight;
+}
