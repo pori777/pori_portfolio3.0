@@ -1,0 +1,8 @@
+@use "../foundation/base";
+.l-bg {
+    width: 100vw;
+    background-color: base.$bg;
+    background-image: url("../../img/main-logo/main-logo1.png");
+    background-attachment: fixed;
+    background-position-x: 50%;
+}
