@@ -61,4 +61,8 @@
         }
         //.p-section--worksを継承できなかった
     }
+    //blog
+    &--contact {
+        @extend .p-section;
+    }
 }
