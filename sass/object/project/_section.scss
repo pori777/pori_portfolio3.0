@@ -1,12 +1,65 @@
+@use "../../foundation/base";
 .p-section {
     width: 90%;
-    margin-top: -50px;
-    padding-top: 50px;
+    margin: 0 auto;
     @include breakpoint ( sp ) {
         width: 94%;
     }
     &--about {
         background-color: #fff;
         margin-top: 80vh;
+        &__content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @extend .p-section;
+            padding: 50px 0px 75px;
+        }
+        &__img {
+            margin-right: 35px;
+            margin-left: auto;
+            > img {
+                width: 250px;
+                height: auto;
+            }
+        }
+        &__list {
+            margin-right: auto;
+            margin-left: 35px;
+        }
+        &__item {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+    }
+    //about
+    &--works {
+        &__content {
+            @extend .p-section;
+            padding: 15px 0px 75px;
+            //padding: 50px 0px 75px;
+            //c-card--postCardのpt35pxとの関係上15px
+        }
+        &__contentWrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+    }
+    //works
+    &--blog {
+        background-color: #fff;
+        &__content {
+            @extend .p-section;
+            padding: 15px 0px 75px;
+            //padding: 50px 0px 75px;
+            //c-card--postCardのpt35pxとの関係上15px
+        }
+        &__contentWrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        //.p-section--worksを継承できなかった
     }
 }
