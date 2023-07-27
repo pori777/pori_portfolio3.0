@@ -1,0 +1,10 @@
+.c-section-ttlset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    > img {
+        width: 200px;
+        height: auto;
+    }
+}
