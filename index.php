@@ -85,7 +85,7 @@
                     );
                         $the_query = new WP_Query($args); if($the_query->have_posts()):
                     ?>
-                    <ul class="p-section--post__wrapper">
+                    <ul class="p-section--post__contentWrapper">
                         <?php while ($the_query->have_posts()):$the_query->the_post(); ?>
                         <li class="p-section--post__item">
                             <a href="<?php the_permalink(); ?>"  class="p-section--post__link">
@@ -122,7 +122,7 @@
                     );
                         $the_query = new WP_Query($args); if($the_query->have_posts()):
                     ?>
-                    <ul class="p-section--post__wrapper">
+                    <ul class="p-section--post__contentWrapper">
                         <?php while ($the_query->have_posts()):$the_query->the_post(); ?>
                         <li class="p-section--post__item">
                             <a href="<?php the_permalink(); ?>"  class="p-section--post__link">

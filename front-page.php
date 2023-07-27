@@ -4,7 +4,7 @@
             <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-about.png" alt="about"></h2>
                 <div class="p-section--about__content">
                     <div class="p-section--about__img">
-                        <img src="<?php echo get_template_directory_uri();?>/img/" alt="">
+                        <img src="<?php echo get_template_directory_uri();?>/img/main-logo/main-logo1.png" alt="">
                     </div>
                     <dl class="p-section--about__list">
                         <div class="p-section--about__item">
@@ -41,7 +41,7 @@
                     );
                         $the_query = new WP_Query($args); if($the_query->have_posts()):
                     ?>
-                    <ul class="p-section--post__wrapper">
+                    <ul class="p-section--post__contentWrapper">
                         <?php while ($the_query->have_posts()):$the_query->the_post(); ?>
                         <li class="p-section--post__item">
                             <a href="<?php the_permalink(); ?>"  class="p-section--post__link">
