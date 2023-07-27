@@ -1,7 +1,7 @@
 <?php get_header() ;?>
     <main>
         <section id="about" class="p-section--about">
-            <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/" alt="about"></h2>
+            <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-about.png" alt="about"></h2>
                 <div class="p-section--about__content">
                     <div class="p-section--about__img">
                         <img src="<?php echo get_template_directory_uri();?>/img/" alt="">
@@ -30,7 +30,7 @@
                 </div>
             </section>
             <section id="works" class="p-section--post">
-                <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/" alt="works"></h2>
+                <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-works.png" alt="works"></h2>
                 <div class="p-section--post__content">
                     <?php
                     $args = array(
@@ -67,7 +67,7 @@
                 </div>
             </section>
             <section id="blog" class="p-section--post">
-                <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/" alt="blog"></h2>
+                <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-blog.png" alt="blog"></h2>
                 <div class="p-section--post__content">
                     <?php
                     $args = array(
@@ -104,7 +104,7 @@
                 </div>
             </section>
             <section id="contact" class="p-section--contact">
-                <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/" alt="contact"></h2>
+                <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-contact.png" alt="contact"></h2>
                 <?php echo do_shortCode('[contact-form-7 id="44" title="コンタクトフォーム"]')?>
             </section>
         <?php get_footer() ;?>
