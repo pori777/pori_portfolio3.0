@@ -1,0 +1,105 @@
+@use "../../foundation/base";
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    width: 90%;
+    &__table{
+        width: 100%;
+        border-collapse:collapse;
+    }
+    &__item{
+        text-align: left;
+        width: 30%;
+        background-color: base.$contact_th;
+        border: 1px solid #ccc;
+        color: base.$text;
+        padding: 20px 0px 20px 10px;
+        font-size: 1.4rem;
+        @include breakpoint ( pc ) {
+            padding: 20px;
+            font-size: 1.8rem;
+        }
+    }
+    &__content{
+        width: 70%;
+        padding: 5px;
+        border: 1px solid #ccc;
+    }
+    &__button{
+        font-weight: bold;
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: center;
+        margin-top: 30px;
+        cursor: pointer;
+        input{
+            background-color: base.$accent;
+        }
+    }
+}
+
+/*------------------------------------------
+    contactForm7の調整
+------------------------------------------*/
+.wpcf7-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    font-size: 1.4rem;
+    width: 90%;
+    padding: 15px 10px;
+    margin: 5px 10px;
+    border-radius: 6.5px;
+    color: base.$text;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    appearance: none;
+    @include breakpoint ( pc ){
+        margin: 5px 20px;
+    }
+}
+textarea{
+    font-size: 1.4rem;
+    width: 90%;
+    height: 350px;
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 6.5px;
+    background-color: #fff;
+    @include breakpoint ( pc ){
+        margin: 10px 20px;
+    }
+}
+
+.screen-reader-response ,
+.wpcf7-not-valid-tip{
+    display: none;
+}
+
+.wpcf7-response-output{
+    color: crimson;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 1.6rem;
+}
+
+/*------------------------------------------
+    reCaptcha関連
+------------------------------------------*/
+.reCaptcha{
+    padding-top: 10px;
+    font-size: 1rem;
+    color: base.$text;
+    @include breakpoint ( pc ){
+        font-size: 1.4rem;
+    }
+}
+//reCaptchaのアイコンを非表示にする
+.grecaptcha-badge {
+    visibility: hidden;
+}
