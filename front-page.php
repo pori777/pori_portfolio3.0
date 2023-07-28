@@ -5,7 +5,7 @@
             <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-about.png" alt="about"></h2>
             <div class="p-section--about__content">
                 <div class="p-section--about__img">
-                    <img src="<?php echo get_template_directory_uri();?>/img/main-logo/main-logo1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/img/main-logo/main-logo2.png" alt="">
                 </div>
                 <dl class="p-section--about__list">
                     <div class="p-section--about__item">
@@ -25,7 +25,7 @@
                         <dd>HTML&nbsp;CSS/SASS,&nbsp;JavaScript/jQuery&nbsp;WordPress</>
                     </div>
                     <div class="p-section--about__item">
-                        <i class="fab fa-github c-icon--github"></i>
+                        <a href="https://github.com/pori777"><i class="fab fa-github fa-bounce"></i></a>
                     </div>
                 </dl>
             </div>
