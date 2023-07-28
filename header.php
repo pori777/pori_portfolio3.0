@@ -33,12 +33,15 @@
 <body>
     <header role="banner" class="l-header">
         <h1 class="l-header__title"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-pori.png" alt="pori"></h1>
-        <nav class="p-gnavi .js-hamburger">
+        <nav class="p-gnavi js-hamburger">
             <ul class="p-gnavi__list">
                 <li class="p-gnavi__item"><a href="https://poriporipori.com/#about"><img src="<?php echo get_template_directory_uri() ;?>/img/title-s/title-s-about.png" alt=""></a></li>
                 <li class="p-gnavi__item"><a href="https://poriporipori.com/works"><img src="<?php echo get_template_directory_uri() ;?>/img/title-s/title-s-works.png" alt=""></a></li>
                 <li class="p-gnavi__item"><a href="https://poriporipori.com/blog"><img src="<?php echo get_template_directory_uri() ;?>/img/title-s/title-s-blog.png" alt=""></a></li>
                 <li class="p-gnavi__item"><a href="https://poriporipori.com/#contact"><img src="<?php echo get_template_directory_uri(); ?>/img/title-s/title-s-contact.png" alt=""></a></li>
             </ul>
+            <button class="p-hamburger js-hamburger--bt">
+                <span>menuボタン</span>
+            </button>
         </nav>
     </header>
