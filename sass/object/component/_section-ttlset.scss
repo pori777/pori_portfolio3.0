@@ -7,4 +7,8 @@
         width: 200px;
         height: auto;
     }
+    &--contact {
+        @extend .c-section-ttlset;
+        padding-bottom: 50px;
+    }
 }
