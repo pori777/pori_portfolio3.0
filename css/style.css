@@ -476,22 +476,38 @@ a {
   justify-content: center;
   align-items: center;
   padding: 50px 0px 75px;
+  max-width: 1000px;
 }
 .p-section--about__img {
-  margin-right: 35px;
+  padding-right: 35px;
   margin-left: auto;
 }
 .p-section--about__img > img {
-  width: 250px;
+  width: 350px;
   height: auto;
 }
 .p-section--about__list {
-  margin-right: auto;
-  margin-left: 35px;
+  padding-left: 35px;
 }
 .p-section--about__item {
-  font-size: 18px;
   line-height: 1.5;
+  padding-bottom: 25px;
+}
+.p-section--about__item:last-child {
+  padding-bottom: 0;
+}
+.p-section--about__item > dt {
+  font-size: 18px;
+}
+.p-section--about__item > dd {
+  font-size: 24px;
+}
+.p-section--about__item > a {
+  display: block;
+}
+.p-section--about__item > a .fa-github {
+  font-size: 45px;
+  color: #000;
 }
 .p-section--works__content {
   padding: 15px 0px 75px;
