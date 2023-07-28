@@ -3,14 +3,14 @@
     align-items: center;
     width: 90%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 2.525vw;
     @include breakpoint( sp ) {
         width: 94%;
     }
     &__title {
         margin-right: auto;
         img {
-            width: 200px;
+            width: 10.101vw;
             height: auto;
         }
     }

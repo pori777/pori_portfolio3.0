@@ -1,6 +1,6 @@
 @use "../../foundation/base";
 .c-card--postCard {
-    padding-top: 35px;
+    padding-top: 1.768vw;
     width: calc( ( 100% - 120px ) / 3 );
     &__link {
         display: block;
@@ -28,13 +28,13 @@
         }
     }
     &__sentence {
-        padding: 15px;
+        padding: 0.758vw;
         > time {
-            font-size: 16px;
+            font-size: 0.808vw;
         }
         > p {
-            font-size: 21px;
-            padding-bottom: 7.5px;
+            font-size: 1.061vw;
+            padding-bottom: 0.379vw;
         }
     }
 }

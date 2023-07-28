@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 35px;
+    padding-top: 1.768vw;
     > img {
-        width: 200px;
+        width: 10.101vw;
         height: auto;
     }
     &--contact {
         @extend .c-section-ttlset;
-        padding-bottom: 50px;
+        padding-bottom: 2.525vw;
     }
 }

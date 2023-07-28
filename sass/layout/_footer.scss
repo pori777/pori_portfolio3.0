@@ -4,22 +4,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 1.263vw;
     color: base.$text;
-    padding: 25px 5px 75px 5px;
+    padding: 1.263vw 0.253vw 3.788vw 0.253vw;
     nav {
         ul {
             display: flex;
-            margin-top: 25px;
+            margin-top: 1.263vw;
             li {
-                font-size: 16px;
-                margin-right: 60px;
+                font-size: 0.808vw;
+                margin-right: 3.03vw;
                 &:last-child {
                     margin-right: 0;
                 }
                 @include breakpoint ( sp ) {
-                    font-size: 1.1px;
-                    margin-right: 30px;
+                    font-size: 0.056vw;
+                    margin-right: 1.515vw;
                 }
                 a {
                     color: base.$text;
@@ -28,10 +28,10 @@
         }
     }
     small {
-        font-size: 16px;
-        margin-top: 15px;
+        font-size: 0.808vw;
+        margin-top: 0.758vw;
         @include breakpoint ( sp ) {
-            font-size: 11px;
+            font-size: 0.556vw;
         }
     }
 }
