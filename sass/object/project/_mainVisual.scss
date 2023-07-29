@@ -1,8 +1,11 @@
 .p-mainVisual {
     width: 100vw;
-    height: calc( 100vh - 170px );
+    height: 100vh;
     background-image: url("../img/main-logo/main-logo1.png");
     background-size: 25.253vw;
     background-repeat: no-repeat;
     background-position: 50%;
+    @include breakpoint ( sp ) {
+        background-size: 58.67vw;
+    }
 }

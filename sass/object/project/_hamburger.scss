@@ -1,39 +1,41 @@
 @use "../../foundation/base";
 
-$btnWidth: 20px;
-$btnHeight: 1px;
+$btnWidth: 2.608vw;
+$btnHeight: 0.13vw;
 
 .p-hamburger {
     display: none;
     @include breakpoint ( sp ) {
-        width: 60px;//hamburgerIconの枠
-        height: 60px;
-        background-color: rgb(107, 106, 106);
+        display: block;
+        background-color: base.$contact_blue;
+        width: 7.823vw;//hamburgerIconの枠
+        height: 7.823vw;
         position:         relative;
         border:           0;
+        z-index: 999;
     }
     &::before,
     &::after {
         content: "";
         width:      $btnWidth;
         height:     $btnHeight;
-        background: base.$bg;
+        background: base.$text;
         position:   absolute;
         left:       calc( 50% - ( #{$btnWidth} / 2 ) );
         display:    block;
         transition: transform 0.2s;
     }
     &::before {
-        top: 22px;
+        top: 2.868vw;
     }
     &::after {
-        top: 38px;
+        top: 4.954vw;
     }
     > span { //hamburgerIconの棒
         width:           $btnWidth;
         height:          $btnHeight;
         font-size:       0;
-        background:      linear-gradient( to  right, base.$bg, base.$bg      ) repeat-x base.$bg;
+        background-color: base.$text;
         background-size: auto             $btnHeight;
         position:        absolute;
         left:            calc(            50% -      (        #{$btnWidth} / 2        ) );
@@ -41,18 +43,19 @@ $btnHeight: 1px;
         transition:      transform 0.2s;
     }
     &.is-open {
+        width: 13.038vw;
         &::before,
         &::after {
-            width:40px;
-            left:calc( 50% - ( 40px / 2 ) );
+            width:5.215vw;
+            left:calc( 50% - ( 5.215vw / 2 ) );
         }
         &::before {
             transform: rotate( 45deg );
-            top:       28px;
+            top:       3.651vw;
         }
         &::after {
             transform: rotate( -45deg );
-            top:       28px;
+            top:       3.651vw;
         }
         > span {
             background: none;
