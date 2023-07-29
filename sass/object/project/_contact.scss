@@ -18,8 +18,8 @@
         padding: 1.01vw 0px 1.01vw 5%;
         font-size: 1.061vw;
         @include breakpoint ( sp ) {
-            padding: 20px 0px 20px 10px;
-            font-size: 1.4rem;
+            padding: 2.608vw 0px 2.608vw 1.956vw;
+            font-size: 1.434vw;
         }
     }
     &__content{
@@ -27,6 +27,9 @@
         padding: 0.505vw;
         border: 1px solid #ccc;
         background-color: #fff;
+        @include breakpoint ( sp ) {
+            padding: 0.652vw 0.652vw 0 0.652vw;
+        }
     }
     &__button{
         font-weight: bold;
@@ -55,13 +58,14 @@ input{
     width: calc( 100% - 1.01vw);
     padding: 1.01vw;
     margin: 0.253vw 0.505vw;
-    border-radius: 0.758vw;
+    border-radius: 15px;
     color: base.$text;
     border: 1px solid #ccc;
     background-color: #fff;
     appearance: none;
-    @include breakpoint ( pc ){
-        margin: 5px 20px;
+    @include breakpoint ( sp ){
+        font-size: 1.304vw;
+        border-radius: 0.978vw;
     }
 }
 textarea{
@@ -70,11 +74,13 @@ textarea{
     height: 17.677vw;
     padding: 1.01vw;
     margin: 0.253vw 0.505vw;
-    border-radius: 0.758vw;
+    border-radius: 15px;
     border: 1px solid #ccc;
     background-color: #fff;
     @include breakpoint ( sp ){
-        margin: 10px 20px;
+        font-size: 1.304vw;
+        margin: 1.253vw 0.505vw;
+        border-radius: 7.5px;
     }
 }
 
@@ -84,10 +90,15 @@ textarea{
 }
 
 .wpcf7-response-output{
-    color: crimson;
+    color: #333;
     text-align: center;
     padding-top: 0.758vw;
     font-size: 0.808vw;
+    border: none!important;
+    @include breakpoint ( sp ) {
+        padding-top: 0.652vw;
+        font-size: 1.304vw;
+    }
 }
 
 /*------------------------------------------
@@ -98,7 +109,8 @@ textarea{
     font-size: 0.505vw;
     color: base.$text;
     @include breakpoint ( sp ){
-        font-size: 14px;
+        padding-top: 0.652vw;
+        font-size: 1.304vw;
     }
     > a {
         color: base.$text;

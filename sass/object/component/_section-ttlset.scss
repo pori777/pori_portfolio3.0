@@ -3,12 +3,21 @@
     flex-direction: column;
     align-items: center;
     padding-top: 1.768vw;
+    @include breakpoint ( sp ) {
+        padding-top: 1.956vw;
+    }
     > img {
         width: 10.101vw;
         height: auto;
+        @include breakpoint ( sp ) {
+            width: 115px
+        }
     }
     &--contact {
         @extend .c-section-ttlset;
         padding-bottom: 2.525vw;
+        @include breakpoint ( sp ) {
+            padding-bottom: 3.259vw;
+        }
     }
 }

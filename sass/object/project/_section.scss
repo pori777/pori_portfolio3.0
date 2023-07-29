@@ -14,38 +14,69 @@
             @extend .p-section;
             padding: 2.525vw 0px 3.788vw;
             max-width: 1000px;
+            @include breakpoint ( sp ) {
+                padding: 0px 0px 4.563vw;
+                flex-direction: column;
+            }
         }
         &__img {
             width: 50%;
             padding-right: 1.768vw;
             margin-left: auto;
+            @include breakpoint ( sp ) {
+                width: 100%;
+                padding-right: 0;
+                margin-left: 0;
+            }
             > img {
                 width: 23.485vw;
                 height: auto;
                 margin-left: auto;
+                @include breakpoint ( sp ) {
+                    width: 45.632vw;
+                    margin-left: 0;
+                    margin: 0 auto;
+                }
             }
         }
         &__list {
             width: 50%;
             padding-left: 1.768vw;
+            @include breakpoint ( sp ) {
+                width: 100%;
+                padding-left: 0;
+            }
         }
         &__item {
             line-height: 1.5;
             padding-bottom: 1.263vw;
+            @include breakpoint ( sp ) {
+                text-align: center;
+                padding-bottom: 2.608vw;
+            }
             &:last-child {
                 padding-bottom: 0;
             }
             > dt {
-            font-size: 0.909vw;
+                font-size: 0.909vw;
+                @include breakpoint ( sp ) {
+                    font-size: 1.304vw;
+                }
             }
             > dd {
                 font-size: 1.212vw;
+                @include breakpoint ( sp ) {
+                    font-size: 2.086vw;
+                }
             }
             > a {
                 display: block;
                 .fa-github{
                     font-size: 2.273vw;
                     color: #000;
+                    @include breakpoint ( sp ) {
+                        font-size: 5.215vw;
+                    }
                 }
             }
         }
@@ -57,11 +88,17 @@
             padding: 0.758vw 0px 3.788vw;
             //padding: 50px 0px 75px;
             //c-card--postCardのpt35pxとの関係上15px
+            @include breakpoint ( sp ) {
+                padding: 4.563vw 0px;
+            }
         }
         &__contentWrapper {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
+            @include breakpoint ( sp ) {
+                flex-direction: column;
+            }
         }
     }
     //works
@@ -72,6 +109,9 @@
             padding: 0.758vw 0px 3.788vw;
             //padding: 50px 0px 75px;
             //c-card--postCardのpt35pxとの関係上15px
+            @include breakpoint ( sp ) {
+                padding: 4.563vw 0px;
+            }
         }
         &__contentWrapper {
             display: flex;
@@ -84,4 +124,5 @@
     &--contact {
         @extend .p-section;
     }
+    //contact
 }
