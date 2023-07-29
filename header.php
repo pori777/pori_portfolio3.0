@@ -40,8 +40,8 @@
                 <li class="p-gnavi__item"><a href="https://poriporipori.com/blog"><img src="<?php echo get_template_directory_uri() ;?>/img/title-s/title-s-blog.png" alt=""></a></li>
                 <li class="p-gnavi__item"><a href="https://poriporipori.com/#contact"><img src="<?php echo get_template_directory_uri(); ?>/img/title-s/title-s-contact.png" alt=""></a></li>
             </ul>
-            <button class="p-hamburger js-hamburger--bt">
+            <div class="p-hamburger js-hamburger--bt">
                 <span>menuボタン</span>
-            </button>
+            </div>
         </nav>
     </header>
