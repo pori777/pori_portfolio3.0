@@ -156,8 +156,8 @@ a {
 }
 @media (max-width: 767px) {
   .l-header {
-    height: 13.038vw;
-    padding: 3.259vw 3vw 0;
+    height: 17.143vw;
+    padding: 5.714vw 5.714vw 0;
   }
 }
 .l-header__title {
@@ -169,7 +169,7 @@ a {
 }
 @media (max-width: 767px) {
   .l-header__title img {
-    width: 16.038vw;
+    width: 21.429vw;
   }
 }
 
@@ -470,7 +470,7 @@ a {
   .p-gnavi__list {
     width: 100vw;
     height: 100vh;
-    padding-top: 13.038vw;
+    padding-top: 28.571vw;
     position: absolute;
     top: 0;
     left: 100%;
@@ -491,9 +491,9 @@ a {
 }
 @media (max-width: 767px) {
   .p-gnavi__item {
-    width: 13.038vw;
+    width: 21.429vw;
     margin-right: 0;
-    margin: 4.563vw 0;
+    margin: 5.714vw 0;
   }
 }
 @media (max-width: 767px) {
@@ -540,9 +540,8 @@ a {
 @media (max-width: 767px) {
   .p-hamburger {
     display: block;
-    background-color: #63b6c7;
-    width: 7.823vw;
-    height: 7.823vw;
+    width: 10vw;
+    height: 8.571vw;
     position: relative;
     border: 0;
     z-index: 999;
@@ -550,45 +549,42 @@ a {
 }
 .p-hamburger::before, .p-hamburger::after {
   content: "";
-  width: 2.608vw;
-  height: 0.13vw;
+  width: 10vw;
+  height: 0.571vw;
   background: #434343;
   position: absolute;
-  left: calc(50% - ( 2.608vw / 2 ));
+  left: calc(50% - ( 10vw / 2 ));
   display: block;
   transition: transform 0.2s;
 }
 .p-hamburger::before {
-  top: 2.868vw;
+  top: 0.286vw;
 }
 .p-hamburger::after {
-  top: 4.954vw;
+  bottom: 0px;
 }
 .p-hamburger > span {
-  width: 2.608vw;
-  height: 0.13vw;
+  width: 10vw;
+  height: 0.571vw;
   font-size: 0;
-  background-color: #434343;
-  background-size: auto 0.13vw;
+  background: linear-gradient(to right, #434343, #434343) repeat-x #434343;
+  background-size: auto 0.571vw;
   position: absolute;
-  left: calc(50% - ( 2.608vw / 2 ));
+  left: calc(50% - ( 10vw / 2 ));
   top: 50%;
   transition: transform 0.2s;
 }
-.p-hamburger.is-open {
-  width: 13.038vw;
-}
 .p-hamburger.is-open::before, .p-hamburger.is-open::after {
-  width: 5.215vw;
-  left: calc(50% - 2.6075vw);
+  width: 10vw;
+  left: calc(50% - 5vw);
 }
 .p-hamburger.is-open::before {
   transform: rotate(45deg);
-  top: 3.651vw;
+  top: 4.286vw;
 }
 .p-hamburger.is-open::after {
   transform: rotate(-45deg);
-  top: 3.651vw;
+  top: 4.286vw;
 }
 .p-hamburger.is-open > span {
   background: none;
@@ -700,6 +696,7 @@ a {
 .p-section--about__item {
   line-height: 1.5;
   padding-bottom: 1.263vw;
+  color: #434343;
 }
 @media (max-width: 767px) {
   .p-section--about__item {
