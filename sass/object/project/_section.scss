@@ -50,6 +50,7 @@
         &__item {
             line-height: 1.5;
             padding-bottom: 1.263vw;
+            color: base.$text;
             @include breakpoint ( sp ) {
                 text-align: center;
                 padding-bottom: 2.608vw;

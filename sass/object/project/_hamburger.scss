@@ -1,15 +1,15 @@
+
 @use "../../foundation/base";
 
-$btnWidth: 2.608vw;
-$btnHeight: 0.13vw;
+$btnWidth: 10vw;
+$btnHeight: 0.571vw;
 
 .p-hamburger {
     display: none;
     @include breakpoint ( sp ) {
         display: block;
-        background-color: base.$contact_blue;
-        width: 7.823vw;//hamburgerIconの枠
-        height: 7.823vw;
+        width: 10vw;//hamburgerIconの枠
+        height: 8.571vw;
         position:         relative;
         border:           0;
         z-index: 999;
@@ -26,16 +26,16 @@ $btnHeight: 0.13vw;
         transition: transform 0.2s;
     }
     &::before {
-        top: 2.868vw;
+        top: 0.286vw;
     }
     &::after {
-        top: 4.954vw;
+        bottom: 0px;
     }
     > span { //hamburgerIconの棒
         width:           $btnWidth;
         height:          $btnHeight;
         font-size:       0;
-        background-color: base.$text;
+        background:      linear-gradient( to  right, base.$text, base.$text      ) repeat-x base.$text;
         background-size: auto             $btnHeight;
         position:        absolute;
         left:            calc(            50% -      (        #{$btnWidth} / 2        ) );
@@ -43,19 +43,18 @@ $btnHeight: 0.13vw;
         transition:      transform 0.2s;
     }
     &.is-open {
-        width: 13.038vw;
         &::before,
         &::after {
-            width:5.215vw;
-            left:calc( 50% - ( 5.215vw / 2 ) );
+            width:10vw;
+            left:calc( 50% - ( 10vw / 2 ) );
         }
         &::before {
             transform: rotate( 45deg );
-            top:       3.651vw;
+            top:       4.286vw;
         }
         &::after {
             transform: rotate( -45deg );
-            top:       3.651vw;
+            top:       4.286vw;
         }
         > span {
             background: none;

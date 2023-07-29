@@ -5,7 +5,7 @@
         @include breakpoint (sp) {
             width: 100vw;
             height: 100vh;
-            padding-top: 13.038vw;
+            padding-top: 28.571vw;
             position: absolute;
             top: 0;
             left: 100%;
@@ -24,9 +24,9 @@
             margin-right: 0;
         }
         @include breakpoint ( sp ) {
-            width: 13.038vw;
+            width: 21.429vw;
             margin-right: 0;
-            margin: 4.563vw 0;
+            margin: 5.714vw 0;
         }
     }
     &.is-open {

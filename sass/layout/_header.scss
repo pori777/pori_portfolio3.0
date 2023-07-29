@@ -7,8 +7,8 @@
     margin: 0 auto;
     padding: 2.525vw 5vw 0px;
     @include breakpoint( sp ) {
-        height: 13.038vw;
-        padding: 3.259vw 3vw 0;
+        height: 17.143vw;
+        padding: 5.714vw 5.714vw  0;
     }
     &__title {
         margin-right: auto;
@@ -16,7 +16,7 @@
             width: 10.101vw;
             height: auto;
             @include breakpoint( sp ) {
-                width: 16.038vw;
+                width: 21.429vw;
             }
         }
     }
