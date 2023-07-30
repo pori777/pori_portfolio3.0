@@ -4,10 +4,12 @@
     flex-direction: column;
     justify-content: center;
     width: 75%;
+    @include breakpoint ( sp ) {
+        width: 100%;
+    }
     &__table{
         width: 100%;
         border-collapse:collapse;
-        border-radius: 15px;
     }
     &__item{
         text-align: left;
@@ -18,8 +20,9 @@
         padding: 1.01vw 0px 1.01vw 5%;
         font-size: 1.061vw;
         @include breakpoint ( sp ) {
+            width: 40%;
             padding: 2.608vw 0px 2.608vw 1.956vw;
-            font-size: 1.434vw;
+            font-size:3.429vw;
         }
     }
     &__content{
@@ -28,13 +31,14 @@
         border: 1px solid #ccc;
         background-color: #fff;
         @include breakpoint ( sp ) {
+            width: 60%;
             padding: 0.652vw 0.652vw 0 0.652vw;
         }
     }
     &__button{
         font-weight: bold;
         color: #fff;
-        font-size: 1.5rem;
+        font-size:4.286vw;
         text-align: center;
         margin-top: 1.515vw;
         cursor: pointer;
@@ -64,7 +68,7 @@ input{
     background-color: #fff;
     appearance: none;
     @include breakpoint ( sp ){
-        font-size: 1.304vw;
+        font-size:3.429vw;
         border-radius: 0.978vw;
     }
 }
@@ -75,10 +79,12 @@ textarea{
     padding: 1.01vw;
     margin: 0.253vw 0.505vw;
     border-radius: 15px;
+    color: base.$text;
     border: 1px solid #ccc;
     background-color: #fff;
     @include breakpoint ( sp ){
-        font-size: 1.304vw;
+        font-size:3.429vw;
+        height: 57.143vw;
         margin: 1.253vw 0.505vw;
         border-radius: 7.5px;
     }
@@ -110,10 +116,7 @@ textarea{
     color: base.$text;
     @include breakpoint ( sp ){
         padding-top: 0.652vw;
-        font-size: 1.304vw;
-    }
-    > a {
-        color: base.$text;
+        font-size: 2.857vw;
     }
 }
 //reCaptchaのアイコンを非表示にする

@@ -4,13 +4,13 @@
     align-items: center;
     padding-top: 1.768vw;
     @include breakpoint ( sp ) {
-        padding-top: 1.956vw;
+        padding-top: 4.286vw;
     }
     > img {
         width: 10.101vw;
         height: auto;
         @include breakpoint ( sp ) {
-            width: 115px
+            width: 28.571vw;
         }
     }
     &--contact {

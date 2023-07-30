@@ -4,13 +4,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1.263vw;
     color: base.$text;
-    padding: 1.263vw 0.253vw 3.788vw 0.253vw;
+    height: 12.626vw;
+    @include breakpoint ( sp ) {
+        height: 28.571vw;
+    }
     nav {
         ul {
             display: flex;
             margin-top: 1.263vw;
+            @include breakpoint ( sp ) {
+                margin-top: 0;
+            }
             li {
                 font-size: 0.808vw;
                 margin-right: 3.03vw;
@@ -18,8 +23,8 @@
                     margin-right: 0;
                 }
                 @include breakpoint ( sp ) {
-                    font-size: 0.056vw;
-                    margin-right: 1.515vw;
+                    font-size: 2.857vw;
+                    margin-right: 7.143vw;
                 }
                 a {
                     color: base.$text;
@@ -31,7 +36,8 @@
         font-size: 0.808vw;
         margin-top: 0.758vw;
         @include breakpoint ( sp ) {
-            font-size: 0.556vw;
+            font-size: 2.857vw;
+            margin-top: 4.286vw;
         }
     }
 }
