@@ -5,6 +5,11 @@ jQuery( function () {
         jQuery( ".js-hamburger" ).toggleClass( "is-open" );
         jQuery( "body" ).toggleClass( "is-open" );
     })
+    jQuery( ".p-gnavi__item" ).on('click' , function() {
+        jQuery( ".js-hamburger--bt" ).toggleClass( "is-open" );
+        jQuery( ".js-hamburger" ).toggleClass( "is-open" );
+        jQuery( "body" ).toggleClass( "is-open" );
+    })
     jQuery( window ).on( "resize", function() {
         let pcWidth = 769;
         if( timer > 0 ) {
