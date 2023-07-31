@@ -2,17 +2,19 @@
 .breadCrumbs{
     display: flex;
     color: base.$text;
-    margin: 0px 25px;
-    padding: 25px 0px;
+    padding: 1.768vw 0px;
+    width: 90%;
+    margin: 0 auto;
     @include breakpoint ( sp ) {
-        margin: 0px 25px;
-        padding: 25px 0px;
+        width: 94%;
+        padding: 4.286vw 0;
     }
     &__item {
-        font-size: 1.8rem;
-        padding-right: 15px;
+        font-size: 1.061vw;
+        padding-right: 1.01vw;
         @include breakpoint ( sp ){
-            font-size: 1.5rem;
+            font-size: 3.429vw;
+            padding-right: 2.857vw;
         }
         a {
             color: base.$text;
