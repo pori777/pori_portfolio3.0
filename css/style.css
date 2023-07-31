@@ -288,22 +288,24 @@ a {
 .breadCrumbs {
   display: flex;
   color: #434343;
-  margin: 0px 25px;
-  padding: 25px 0px;
+  padding: 1.768vw 0px;
+  width: 90%;
+  margin: 0 auto;
 }
 @media (max-width: 767px) {
   .breadCrumbs {
-    margin: 0px 25px;
-    padding: 25px 0px;
+    width: 94%;
+    padding: 4.286vw 0;
   }
 }
 .breadCrumbs__item {
-  font-size: 1.8rem;
-  padding-right: 15px;
+  font-size: 1.061vw;
+  padding-right: 1.01vw;
 }
 @media (max-width: 767px) {
   .breadCrumbs__item {
-    font-size: 1.5rem;
+    font-size: 3.429vw;
+    padding-right: 2.857vw;
   }
 }
 .breadCrumbs__item a {
@@ -702,12 +704,12 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.p-section, .p-section--single, .p-section--contact, .p-section--blog__content, .p-section--works__content, .p-section--about__content {
+.p-section, .p-section--single__content, .p-section--contact, .p-section--blog__content, .p-section--archive__content, .p-section--works__content, .p-section--about__content {
   width: 90%;
   margin: 0 auto;
 }
 @media (max-width: 767px) {
-  .p-section, .p-section--single, .p-section--contact, .p-section--blog__content, .p-section--works__content, .p-section--about__content {
+  .p-section, .p-section--single__content, .p-section--contact, .p-section--blog__content, .p-section--archive__content, .p-section--works__content, .p-section--about__content {
     width: 94%;
   }
 }
@@ -821,54 +823,88 @@ a {
     flex-direction: column;
   }
 }
-.p-section--blog {
+.p-section--blog, .p-section--archive {
   background-color: #fff;
 }
-.p-section--blog__content {
+.p-section--blog__content, .p-section--archive__content {
   padding: 0.758vw 0px 3.788vw;
 }
 @media (max-width: 767px) {
-  .p-section--blog__content {
+  .p-section--blog__content, .p-section--archive__content {
     padding: 4.286vw 0px 10vw;
   }
 }
-.p-section--blog__contentWrapper {
+.p-section--blog__contentWrapper, .p-section--archive__contentWrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+.p-section--single {
+  background-color: #fff;
+  width: 100%;
+}
 .p-section--single__wrapper {
   padding-bottom: 0;
 }
-@media (max-width: 767px) {
-  .p-section--single__wrapper {
-    padding-bottom: 25px;
-  }
-}
-.p-section--single__wrapper__content {
+.p-section--single__content {
   color: #434343;
   background-color: #fff;
-  padding: 35px;
+  padding: 1.768vw 0px 3.788vw;
 }
-.p-section--single__wrapper__content__time {
-  font-size: 1.4rem;
-  padding-bottom: 2.5px;
+@media (max-width: 767px) {
+  .p-section--single__content {
+    padding: 2.857vw 0 10vw;
+  }
 }
-.p-section--single__wrapper__content__title {
-  font-size: 1.65rem;
-  padding-bottom: 17.5px;
+.p-section--single__time {
+  font-size: 1.01vw;
 }
-.p-section--single__wrapper__content__img {
+@media (max-width: 767px) {
+  .p-section--single__time {
+    font-size: 3.429vw;
+  }
+}
+.p-section--single__title {
+  font-size: 1.212vw;
+  margin: 0.126vw 0px 0.758vw;
+}
+@media (max-width: 767px) {
+  .p-section--single__title {
+    font-size: 4.286vw;
+    margin: 0.714vw 0 2.857vw;
+  }
+}
+.p-section--single__img {
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 1.768vw;
 }
-.p-section--single__wrapper__content__description {
+@media (max-width: 767px) {
+  .p-section--single__img {
+    padding-bottom: 4.286vw;
+  }
+}
+.p-section--single__description {
   display: block;
+  font-size: 1.01vw;
+  padding: 0px 1.263vw;
 }
-.p-section--single__wrapper__content__description a {
+@media (max-width: 767px) {
+  .p-section--single__description {
+    font-size: 3.143vw;
+    padding: 0 1.429vw;
+  }
+}
+.p-section--single__gitHubLink {
   text-decoration: none;
-  font-size: 1.6rem;
   word-break: break-all;
+  font-size: 1.01vw;
+  padding: 0px 1.263vw;
+}
+@media (max-width: 767px) {
+  .p-section--single__gitHubLink {
+    font-size: 3.143vw;
+    padding: 0 1.429vw;
+  }
 }
 
 :root {
@@ -1014,13 +1050,13 @@ textarea {
   color: #333;
   text-align: center;
   padding-top: 0.758vw;
-  font-size: 0.808vw;
+  font-size: 1.061vw;
   border: none !important;
 }
 @media (max-width: 767px) {
   .wpcf7-response-output {
     padding-top: 0.652vw;
-    font-size: 1.304vw;
+    font-size: 3.143vw;
   }
 }
 
