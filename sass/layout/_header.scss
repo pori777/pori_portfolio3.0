@@ -6,6 +6,7 @@
     height: 8.586vw;
     margin: 0 auto;
     padding: 2.525vw 5vw 0px;
+    z-index: 999;
     @include breakpoint( sp ) {
         height: 17.143vw;
         padding: 5.714vw 5.714vw  0;
