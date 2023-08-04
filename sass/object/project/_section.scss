@@ -5,7 +5,7 @@
     margin-bottom: 12.626vw;
     @include breakpoint ( sp ) {
         width: 94%;
-        margin-bottom: 150px;
+        margin-bottom: 42.857vw;
     }
     &--about {
         @include sectionDiagonal();
@@ -103,7 +103,7 @@
     }
     //post
     &--contact {
-        @include sectionDiagonal();
+        background-color: #fff;
         > div {
             @extend .p-section;
             margin-bottom: 0;
@@ -111,10 +111,11 @@
         }
     }
     &--archive {
-        @include sectionDiagonal();
+        background-color: #fff;
         &__content {
             @extend .p-section;
             padding: 0.758vw 0 3.788vw;
+            margin-bottom: 0;
             //padding: 50px 0px 75px;
             //c-card--postCardのpt35pxとの関係上15px
             @include breakpoint ( sp ) {
@@ -130,18 +131,19 @@
         //.p-section--worksを継承できなかった
     }
     &--single {
-        @include sectionDiagonal();
+        background-color: #fff;
         width: 100%;
         &__wrapper {
             padding-bottom: 0;
         }
         &__content {
-            @extend .p-section;
+            width: 70%;
+            margin: 0 auto;
             color: base.$text;
             padding: 1.768vw 0 3.788vw;
             @include breakpoint ( sp ) {
+                width: 94%;
                 padding: 2.857vw 0 10vw;
-                margin-bottom: 0;
             }
         }
         &__time {
