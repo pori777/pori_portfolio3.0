@@ -31,11 +31,6 @@
                 </ul>
                 <?php else : ?>
                 <?php endif ;?>
-                <div class="c-button--post">
-                    <a href="https://poriporipori.com/blog">
-                        <p>一覧ページを見る<i class="fas fa-angle-right"></i></p>
-                    </a>
-                </div>
             </div>
         </section>
     </main>
