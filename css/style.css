@@ -54,6 +54,16 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 *,
 *::before,
 *::after {
@@ -239,17 +249,28 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .l-footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: #434343;
-  height: 12.626vw;
+  background-color: #484848;
+  padding: 1.263vw 0 3.1575vw;
 }
 @media (max-width: 767px) {
   .l-footer {
-    height: 28.571vw;
+    padding: 7.143vw 0 3.5715vw;
   }
 }
 .l-footer nav ul {
@@ -275,9 +296,10 @@ a {
   }
 }
 .l-footer nav ul li a {
-  color: #434343;
+  color: #fff;
 }
 .l-footer small {
+  color: #fff;
   font-size: 0.808vw;
   margin-top: 0.758vw;
 }
@@ -339,6 +361,17 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .breadCrumbs {
   display: flex;
   color: #434343;
@@ -443,6 +476,17 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .c-card--postCard {
   padding-top: 1.768vw;
   width: calc((100% - 120px) / 3);
@@ -552,6 +596,17 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .c-button--post {
   display: flex;
   justify-content: center;
@@ -713,6 +768,17 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .p-hamburger {
   display: none;
 }
@@ -834,6 +900,17 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .p-section, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
   width: 90%;
   margin: 0 auto;
@@ -1122,6 +1199,17 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
+.fade {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1.5s transform 1s;
+}
+
+.fade.active {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
 .contact {
   display: flex;
   flex-direction: column;
