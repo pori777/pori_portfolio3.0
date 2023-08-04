@@ -343,7 +343,7 @@ a {
   display: flex;
   color: #434343;
   padding: 1.768vw 0px;
-  width: 90%;
+  width: 70%;
   margin: 0 auto;
 }
 @media (max-width: 767px) {
@@ -834,15 +834,15 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.p-section, .p-section--single__content, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
+.p-section, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 12.626vw;
 }
 @media (max-width: 767px) {
-  .p-section, .p-section--single__content, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
+  .p-section, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
     width: 94%;
-    margin-bottom: 150px;
+    margin-bottom: 42.857vw;
   }
 }
 .p-section--about {
@@ -980,19 +980,6 @@ a {
   justify-content: space-evenly;
 }
 .p-section--contact {
-  position: relative;
-  z-index: 0;
-}
-.p-section--contact::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  /*四角形を傾けます*/
-  transform: skewY(-3.5deg);
-  z-index: -1;
-  width: 100%;
-  height: 100%;
   background-color: #fff;
 }
 .p-section--contact > div {
@@ -1000,23 +987,11 @@ a {
   padding-bottom: 1.429vw;
 }
 .p-section--archive {
-  position: relative;
-  z-index: 0;
-}
-.p-section--archive::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  /*四角形を傾けます*/
-  transform: skewY(-3.5deg);
-  z-index: -1;
-  width: 100%;
-  height: 100%;
   background-color: #fff;
 }
 .p-section--archive__content {
   padding: 0.758vw 0 3.788vw;
+  margin-bottom: 0;
 }
 @media (max-width: 767px) {
   .p-section--archive__content {
@@ -1030,33 +1005,22 @@ a {
   justify-content: space-evenly;
 }
 .p-section--single {
-  position: relative;
-  z-index: 0;
-  width: 100%;
-}
-.p-section--single::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  /*四角形を傾けます*/
-  transform: skewY(-3.5deg);
-  z-index: -1;
-  width: 100%;
-  height: 100%;
   background-color: #fff;
+  width: 100%;
 }
 .p-section--single__wrapper {
   padding-bottom: 0;
 }
 .p-section--single__content {
+  width: 70%;
+  margin: 0 auto;
   color: #434343;
   padding: 1.768vw 0 3.788vw;
 }
 @media (max-width: 767px) {
   .p-section--single__content {
+    width: 94%;
     padding: 2.857vw 0 10vw;
-    margin-bottom: 0;
   }
 }
 .p-section--single__time {
