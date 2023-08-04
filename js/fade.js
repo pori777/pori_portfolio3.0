@@ -1,14 +1,13 @@
 jQuery( function () {
-    const targets = document.getElementsByClassName('fade');
-    for(let i = targets.length; i--;){
-        let observer = new IntersectionObserver((entries, observer) => {
-            for(let j = entries.length; j--;){
-            if (entries[j].isIntersecting) {
-            entries[j].target.classList.add('active');
-            observer.unobserve(entries[j].target);
-            }
-        }
+    $(window).scroll(function (){
+        $('.fadein').each(function(){
+            var elemPos = $(this).offset().top,
+            scroll = $(window).scrollTop(),
+            windowHeight = $(window).height();
+
+                if (scroll > elemPos - windowHeight + 150){
+                    $(this).addClass('scrollin');
+                }
+        });
     });
-    observer.observe(targets[i]);
-}
 })
