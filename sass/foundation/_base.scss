@@ -48,6 +48,7 @@ a {
 ---------------------------------------------*/
 $bg : rgb(235, 165, 0);//背景色
 $text : #434343;//pタグの色
+$footer_bg : #484848;
 $contact_blue : #63b6c7;
 $pageTop_hover : #daa577;
 
@@ -82,5 +83,16 @@ $pageTop_hover : #daa577;
         width:100%;
         height:100%;
         background-color:#fff;
+    }
+}
+
+//sectionのfadeIn
+.fade {
+    opacity: 0;
+    transform: translateY( 30px );
+    transition: opacity 1.5s transform 1s;
+    &.active {
+        opacity: 1;
+        transform: translateY( 0px );
     }
 }
