@@ -12,6 +12,7 @@
     <script src="https://kit.fontawesome.com/8e9a187939.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="<?php echo get_template_directory_uri();?>/js/hamburger.js"></script>
+    <script src="<?php echo get_template_directory_uri();?>/js/fade.js"></script>
     <?php wp_footer(); ?>
 </body>
 </html>
