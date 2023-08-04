@@ -14,9 +14,24 @@ html {
 body {
     min-width: 350px;
     width: 100%;
-    background-color: rgb(235, 165, 0);
     font-family: 'Noto Sans JP', Arial;
     position: relative;
+    &:before{
+        content: "";
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 100vh;
+        background: url("../img/main-logo/main-logo1.png") center no-repeat;
+        background-size: 25.253vw;
+        background-color: rgb(235, 165, 0);
+        @media  screen and (max-width:767px) {
+            background-size: 71.429vw;
+        }
+    }
 }
 
 li {
@@ -50,4 +65,22 @@ $pageTop_hover : #daa577;
 @mixin oswald( $weight: "400" ) {
     font-family: 'Oswald', sans-serif;
     font-weight: $weight;
+}
+
+//sectionを斜めにする
+@mixin sectionDiagonal () {
+    position: relative;
+    z-index: 0;
+    &::after{
+        content: '';
+        position: absolute;
+        left:0;
+        top: 0;
+        /*四角形を傾けます*/
+        transform: skewY(-3.5deg);
+        z-index: -1;
+        width:100%;
+        height:100%;
+        background-color:#fff;
+    }
 }
