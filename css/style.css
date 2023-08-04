@@ -54,14 +54,26 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 *,
@@ -249,15 +261,31 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
 
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 .l-footer {
@@ -361,15 +389,31 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
 
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 .breadCrumbs {
@@ -476,15 +520,31 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
 
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 .c-card--postCard {
@@ -596,15 +656,31 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
 
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 .c-button--post {
@@ -768,15 +844,31 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
 
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 .p-hamburger {
@@ -900,15 +992,31 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
 
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 .p-section, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
@@ -1199,15 +1307,31 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.fade {
+.fadein {
   opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 1.5s transform 1s;
+  transform: translate(0, 0);
+  transition: all 1.5s;
 }
 
-.fade.active {
-  opacity: 1;
-  transform: translateY(0px);
+.fadein.fadein-left {
+  transform: translate(-30px, 0);
+}
+
+.fadein.fadein-right {
+  transform: translate(30px, 0);
+}
+
+.fadein.fadein-up {
+  transform: translate(0, -30px);
+}
+
+.fadein.fadein-bottom {
+  transform: translate(0, 30px);
+}
+
+.fadein.scrollin {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
 }
 
 .contact {
