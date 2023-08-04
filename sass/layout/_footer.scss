@@ -4,10 +4,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: base.$text;
-    height: 12.626vw;
+    background-color: base.$footer_bg;
+    padding: 1.263vw 0 3.1575vw;
     @include breakpoint ( sp ) {
-        height: 28.571vw;
+        padding: 7.143vw 0 3.5715vw;
     }
     nav {
         ul {
@@ -27,12 +27,13 @@
                     margin-right: 7.143vw;
                 }
                 a {
-                    color: base.$text;
+                    color: #fff;
                 }
             }
         }
     }
     small {
+        color: #fff;
         font-size: 0.808vw;
         margin-top: 0.758vw;
         @include breakpoint ( sp ) {
