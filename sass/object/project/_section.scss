@@ -2,20 +2,22 @@
 .p-section {
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 12.626vw;
     @include breakpoint ( sp ) {
         width: 94%;
+        margin-bottom: 150px;
     }
     &--about {
-        background-color: #fff;
+        @include sectionDiagonal();
         &__content {
             display: flex;
             justify-content: center;
             align-items: center;
             @extend .p-section;
-            padding: 2.525vw 0px 3.788vw;
+            padding: 2.525vw 0 3.788vw;
             max-width: 1000px;
             @include breakpoint ( sp ) {
-                padding: 0px 0px 10vw;
+                padding: 0 0 10vw;
                 flex-direction: column;
             }
         }
@@ -82,36 +84,42 @@
             }
         }
     }
-    &--works {
+    &--post {
+        @include sectionDiagonal();
         &__content {
             @extend .p-section;
-            padding: 0.758vw 0px 3.788vw;
+            padding: 0.758vw 0 3.788vw;
             //padding: 50px 0px 75px;
             //c-card--postCardのpt35pxとの関係上15px
             @include breakpoint ( sp ) {
-                padding: 4.286vw 0px 10vw;
+                padding: 4.286vw 0 10vw;
             }
         }
         &__contentWrapper {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
-            @include breakpoint ( sp ) {
-                flex-direction: column;
-            }
         }
     }
-    //works
-    &--blog,
+    //post
+    &--contact {
+        @include sectionDiagonal();
+        > div {
+            @extend .p-section;
+            margin-bottom: 0;
+            padding-bottom: 1.429vw;
+        }
+    }
     &--archive {
-        background-color: #fff;
+        @include sectionDiagonal();
         &__content {
             @extend .p-section;
-            padding: 0.758vw 0px 3.788vw;
+            padding: 0.758vw 0 3.788vw;
             //padding: 50px 0px 75px;
             //c-card--postCardのpt35pxとの関係上15px
             @include breakpoint ( sp ) {
-                padding: 4.286vw 0px 10vw;
+                padding: 4.286vw 0 10vw;
+                margin-bottom: 0;
             }
         }
         &__contentWrapper {
@@ -121,11 +129,8 @@
         }
         //.p-section--worksを継承できなかった
     }
-    &--contact {
-        @extend .p-section;
-    }
     &--single {
-        background-color: #fff;
+        @include sectionDiagonal();
         width: 100%;
         &__wrapper {
             padding-bottom: 0;
@@ -133,10 +138,10 @@
         &__content {
             @extend .p-section;
             color: base.$text;
-            background-color: #fff;
-            padding: 1.768vw 0px 3.788vw;
+            padding: 1.768vw 0 3.788vw;
             @include breakpoint ( sp ) {
                 padding: 2.857vw 0 10vw;
+                margin-bottom: 0;
             }
         }
         &__time {
@@ -147,7 +152,7 @@
         }
         &__title {
             font-size: 1.212vw;
-            margin: 0.126vw 0px 0.758vw;
+            margin: 0.126vw 0 0.758vw;
             @include breakpoint ( sp ) {
                 font-size: 4.286vw;
                 margin: 0.714vw 0 2.857vw;
@@ -163,7 +168,7 @@
         &__description {
             display: block;
             font-size: 1.01vw;
-            padding: 0px 1.263vw;
+            padding: 0 1.263vw;
             @include breakpoint ( sp ) {
                 font-size: 3.143vw;
                 padding: 0 1.429vw;
@@ -173,7 +178,7 @@
             text-decoration: none;
             word-break: break-all;
             font-size: 1.01vw;
-            padding: 0px 1.263vw;
+            padding: 0 1.263vw;
             @include breakpoint ( sp ) {
                 font-size: 3.143vw;
                 padding: 0 1.429vw;
