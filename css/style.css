@@ -20,9 +20,26 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
+}
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
 }
 
 li {
@@ -187,11 +204,29 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
+}
 li {
   list-style-type: none;
 }
@@ -269,11 +304,29 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
+}
 li {
   list-style-type: none;
 }
@@ -355,11 +408,29 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
+}
 li {
   list-style-type: none;
 }
@@ -446,11 +517,29 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
+}
 li {
   list-style-type: none;
 }
@@ -589,11 +678,29 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
+}
 li {
   list-style-type: none;
 }
@@ -663,19 +770,22 @@ a {
 }
 
 .p-mainVisual {
-  width: 100vw;
   height: 100vh;
-  background-image: url("../img/main-logo/main-logo1.png");
-  background-size: 25.253vw;
-  background-repeat: no-repeat;
-  background-position: 50%;
-}
-@media (max-width: 767px) {
-  .p-mainVisual {
-    background-size: 71.429vw;
-  }
 }
 
+/*
+width: 100vw;
+height: 100vh;
+background-image: url("../img/main-logo/main-logo1.png");
+background-color: rgb(235, 165, 0);
+background-size: 25.253vw;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: 50%;
+@include breakpoint ( sp ) {
+    background-size: 71.429vw;
+}
+*/
 :root {
   font-size: 62.5%;
 }
@@ -689,11 +799,29 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
+}
 li {
   list-style-type: none;
 }
@@ -706,28 +834,43 @@ a {
 /*--------------------------------------------
     サイトカラー
 ---------------------------------------------*/
-.p-section, .p-section--single__content, .p-section--contact, .p-section--blog__content, .p-section--archive__content, .p-section--works__content, .p-section--about__content {
+.p-section, .p-section--single__content, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
   width: 90%;
   margin: 0 auto;
+  margin-bottom: 12.626vw;
 }
 @media (max-width: 767px) {
-  .p-section, .p-section--single__content, .p-section--contact, .p-section--blog__content, .p-section--archive__content, .p-section--works__content, .p-section--about__content {
+  .p-section, .p-section--single__content, .p-section--archive__content, .p-section--contact > div, .p-section--post__content, .p-section--about__content {
     width: 94%;
+    margin-bottom: 150px;
   }
 }
 .p-section--about {
+  position: relative;
+  z-index: 0;
+}
+.p-section--about::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*四角形を傾けます*/
+  transform: skewY(-3.5deg);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
 }
 .p-section--about__content {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 2.525vw 0px 3.788vw;
+  padding: 2.525vw 0 3.788vw;
   max-width: 1000px;
 }
 @media (max-width: 767px) {
   .p-section--about__content {
-    padding: 0px 0px 10vw;
+    padding: 0 0 10vw;
     flex-direction: column;
   }
 }
@@ -807,55 +950,113 @@ a {
     font-size: 10vw;
   }
 }
-.p-section--works__content {
-  padding: 0.758vw 0px 3.788vw;
+.p-section--post {
+  position: relative;
+  z-index: 0;
+}
+.p-section--post::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*四角形を傾けます*/
+  transform: skewY(-3.5deg);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.p-section--post__content {
+  padding: 0.758vw 0 3.788vw;
 }
 @media (max-width: 767px) {
-  .p-section--works__content {
-    padding: 4.286vw 0px 10vw;
+  .p-section--post__content {
+    padding: 4.286vw 0 10vw;
   }
 }
-.p-section--works__contentWrapper {
+.p-section--post__contentWrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-@media (max-width: 767px) {
-  .p-section--works__contentWrapper {
-    flex-direction: column;
-  }
+.p-section--contact {
+  position: relative;
+  z-index: 0;
 }
-.p-section--blog, .p-section--archive {
+.p-section--contact::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*四角形を傾けます*/
+  transform: skewY(-3.5deg);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
   background-color: #fff;
 }
-.p-section--blog__content, .p-section--archive__content {
-  padding: 0.758vw 0px 3.788vw;
+.p-section--contact > div {
+  margin-bottom: 0;
+  padding-bottom: 1.429vw;
+}
+.p-section--archive {
+  position: relative;
+  z-index: 0;
+}
+.p-section--archive::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*四角形を傾けます*/
+  transform: skewY(-3.5deg);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.p-section--archive__content {
+  padding: 0.758vw 0 3.788vw;
 }
 @media (max-width: 767px) {
-  .p-section--blog__content, .p-section--archive__content {
-    padding: 4.286vw 0px 10vw;
+  .p-section--archive__content {
+    padding: 4.286vw 0 10vw;
+    margin-bottom: 0;
   }
 }
-.p-section--blog__contentWrapper, .p-section--archive__contentWrapper {
+.p-section--archive__contentWrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .p-section--single {
-  background-color: #fff;
+  position: relative;
+  z-index: 0;
   width: 100%;
+}
+.p-section--single::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  /*四角形を傾けます*/
+  transform: skewY(-3.5deg);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
 }
 .p-section--single__wrapper {
   padding-bottom: 0;
 }
 .p-section--single__content {
   color: #434343;
-  background-color: #fff;
-  padding: 1.768vw 0px 3.788vw;
+  padding: 1.768vw 0 3.788vw;
 }
 @media (max-width: 767px) {
   .p-section--single__content {
     padding: 2.857vw 0 10vw;
+    margin-bottom: 0;
   }
 }
 .p-section--single__time {
@@ -868,7 +1069,7 @@ a {
 }
 .p-section--single__title {
   font-size: 1.212vw;
-  margin: 0.126vw 0px 0.758vw;
+  margin: 0.126vw 0 0.758vw;
 }
 @media (max-width: 767px) {
   .p-section--single__title {
@@ -888,7 +1089,7 @@ a {
 .p-section--single__description {
   display: block;
   font-size: 1.01vw;
-  padding: 0px 1.263vw;
+  padding: 0 1.263vw;
 }
 @media (max-width: 767px) {
   .p-section--single__description {
@@ -900,7 +1101,7 @@ a {
   text-decoration: none;
   word-break: break-all;
   font-size: 1.01vw;
-  padding: 0px 1.263vw;
+  padding: 0 1.263vw;
 }
 @media (max-width: 767px) {
   .p-section--single__gitHubLink {
@@ -922,11 +1123,29 @@ html {
 body {
   min-width: 350px;
   width: 100%;
-  background-color: rgb(235, 165, 0);
   font-family: "Noto Sans JP", Arial;
   position: relative;
 }
 
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100vh;
+  background: url("../img/main-logo/main-logo1.png") center no-repeat;
+  background-size: 25.253vw;
+  background-color: rgb(235, 165, 0);
+}
+
+@media screen and (max-width: 767px) {
+  body:before {
+    background-size: 71.429vw;
+  }
+}
 li {
   list-style-type: none;
 }
