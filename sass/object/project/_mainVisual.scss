@@ -1,11 +1,16 @@
 .p-mainVisual {
-    width: 100vw;
     height: 100vh;
-    background-image: url("../img/main-logo/main-logo1.png");
-    background-size: 25.253vw;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    @include breakpoint ( sp ) {
-        background-size: 71.429vw;
-    }
 }
+/*
+width: 100vw;
+height: 100vh;
+background-image: url("../img/main-logo/main-logo1.png");
+background-color: rgb(235, 165, 0);
+background-size: 25.253vw;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: 50%;
+@include breakpoint ( sp ) {
+    background-size: 71.429vw;
+}
+*/
