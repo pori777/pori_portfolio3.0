@@ -1,7 +1,7 @@
 <?php get_header() ;?>
     <main>
         <section class="p-mainVisual"></section>
-        <section id="blog" class="p-section--single fade">
+        <section id="blog" class="p-section--single fadein fadein-bottom">
             <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-works.png" alt="works"></h2>
             <div class="p-section--single__wrapper">
                 <nav class="breadCrumbs">
