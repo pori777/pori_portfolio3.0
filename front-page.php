@@ -4,8 +4,8 @@
         <section id="about" class="p-section--about fadein fadein-bottom">
             <h2 class="c-section-ttlset"><img src="<?php echo get_template_directory_uri();?>/img/title-bs/title-bs-about.png" alt="about"></h2>
             <div class="p-section--about__content">
-                <div class="p-section--about__img">
-                    <img src="<?php echo get_template_directory_uri();?>/img/main-logo/main-logo2.png" alt="">
+                <div class="p-section--about__imgWrapper">
+                    <div class="p-section--about__img"></div>
                 </div>
                 <dl class="p-section--about__list">
                     <div class="p-section--about__item">
