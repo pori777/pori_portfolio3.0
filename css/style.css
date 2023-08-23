@@ -32,13 +32,16 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 
@@ -239,14 +242,17 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 li {
@@ -367,14 +373,17 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 li {
@@ -498,14 +507,17 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 li {
@@ -634,14 +646,17 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 li {
@@ -822,14 +837,17 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 li {
@@ -970,14 +988,17 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 li {
@@ -1292,14 +1313,17 @@ body:before {
   z-index: -1;
   width: 100%;
   height: 100vh;
-  background: url("../img/main-logo/main-logo1.png") center no-repeat;
-  background-size: 25.253vw;
+  background-image: url("../img/main-logo/main-logo1.png"), url("../img/scroll/scroll-bs.png");
+  background-position: center, center 75vh;
+  background-repeat: no-repeat;
+  background-size: 25.253vw, 6.313vw;
   background-color: rgb(235, 165, 0);
 }
 
 @media screen and (max-width: 767px) {
   body:before {
-    background-size: 71.429vw;
+    background-size: 85.429vw, 21.429vw;
+    background-position: center, center 70vh;
   }
 }
 li {
